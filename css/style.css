@@ -142,7 +142,36 @@
     background-color: beige;
 }
 
+/*----------------------------*/
+
 .bot-right > .feed {
     display: grid;
     background-color: rgb(174, 195, 154);
+    grid-template-rows: min-content 1fr min-content 1fr;
+}
+
+.bot-right > .feed > text {
+    font-size: 14pt;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bot-right > .feed > div {
+    display: grid;
+}
+
+.feed .news {
+    background-color: palegreen;
+    padding: 10px;
+    margin: 10px;
+    max-height: 300px;
+}
+
+.feed .news div{
+    display: grid;
+    grid-template-rows: min-content 1fr;
+}
+
+.feed .trending {
+    grid-template-columns: 1fr 5fr;
 }
