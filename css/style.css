@@ -5,11 +5,15 @@
     grid-template-columns: 1fr minmax(600px, 4fr);
 }
 
+/* ---------------------------- */
+
 .sidebar {
     grid-row: 1/-1;
     grid-column: 1; 
     background-color: blue;
 }
+
+/* ---------------------------- */
 
 .top-right {
     display: flex;
@@ -17,9 +21,11 @@
     grid-row: 1;
     grid-column: 2;
     background-color: gray;
-    padding: 5px;
+    padding: 20px;
     gap: 2px;
 }
+
+/*---------------------------*/
 
 .top-right .top {
     display: flex;
@@ -48,11 +54,36 @@
 
 }
 
+/* ---------------------------- */
+
 .top-right .navbar {
-    border: 2px solid red;
     flex: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
+.navbar .left {
+    flex: 1;
+    justify-content: start;
+    align-items: center;
+    padding: 1vw;
+    gap: 10px;
+}
+
+.navbar .right {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+}
+.navbar .right button {
+    width: 8vw;
+    aspect-ratio: 16/6;
+    border-radius: 10px;
+}
+
+/* ---------------------------- */
 
 .bot-right {
     grid-row: 2;
