@@ -8,6 +8,8 @@
 
 /* ---------------------------- */
 .container {
+    margin: -10px;
+    margin-bottom: -20px;
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 4fr;
@@ -133,15 +135,14 @@
     background-color: lavenderblush;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding: 5px;
 }
 
 .bot-right > .projects {
     display: grid;
-    background-color: purple;
+    background-color: beige;
 }
 
 .bot-right > .feed {
     display: grid;
-    background-color: chartreuse;
+    background-color: rgb(174, 195, 154);
 }
