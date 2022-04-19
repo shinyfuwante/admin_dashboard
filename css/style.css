@@ -22,6 +22,7 @@
     background-color: rgb(188, 188, 254);
     display: grid;
     grid-template-rows: repeat(12,minmax(30px,1fr)) 5fr;
+    grid-template-columns: 1;
 }
 
 .sidebar .header {
