@@ -1,0 +1,48 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr minmax(600px, 4fr);
+}
+
+.sidebar {
+    grid-row: 1/-1;
+    grid-column: 1; 
+    background-color: blue;
+}
+
+.top-right {
+    display: flex;
+    flex-flow: column;
+    grid-row: 1;
+    grid-column: 2;
+    background-color: gray;
+}
+
+.top-right > .search-bar {
+    border: 2px solid red;
+}
+
+.top-right > .navbar {
+    border: 2px solid red;
+}
+
+
+.bot-right {
+    grid-row: 2;
+    grid-column: 2;
+    background-color: lavenderblush;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 5px;
+}
+
+.bot-right > .projects {
+    display: grid;
+    background-color: purple;
+}
+
+.bot-right > .feed {
+    display: grid;
+    background-color: chartreuse;
+}
