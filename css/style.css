@@ -3,6 +3,7 @@
 
 :root {
     font-family: 'Poppins', sans-serif;
+    color: whitesmoke;   
 }
 
 /* ---------------------------- */
@@ -28,18 +29,20 @@
     gap: 5px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    justify-content: end;
+    place-items: center;
 
 }
 
 .header ~ div {
-    padding: 15px;
+    padding: 3px;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 0.6fr 1fr;
     align-items: center;
     justify-content: end;
+}
 
+.header ~ div > svg {
+    justify-self: center;
 }
 
 
