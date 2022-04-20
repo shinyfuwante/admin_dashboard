@@ -167,10 +167,12 @@
     justify-self: end;
 }
 
-.projects text {
+.projects > text {
     grid-column: 1/-1;
     color: var(--davys-grey);
-    place-self: left;
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .projects .card {
@@ -254,7 +256,19 @@
 .feed .news span {
     font-weight: 600;
 }
+/*-------------------------------------------*/ 
 .feed .trending {
-    grid-template-columns: 1fr 5fr;
-    
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 12px;
+    row-gap: 2px;
+    column-gap: 3px;
+}
+
+.feed .trending > svg {
+    justify-self: center;
+}
+
+.feed .trending >*:nth-child(even) {
+    justify-self: left;
 }
