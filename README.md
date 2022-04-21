@@ -9,4 +9,5 @@ This admin dashboard is an exercise in using mostly CSS Grid to create a two dim
 <li> Use of auto-fill to allow for a more responsive design (the card section). </li>
 <li> Using max-height to make other elements not blow up when the auto-fill occurs. </li>
 <li> Use of SVGs and manipulating them with CSS Grid. </li>
+  <li> Use of line-clamp to allow for trailing ellipsis on a multiline text </li>
 </ol>
