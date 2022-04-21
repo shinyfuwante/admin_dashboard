@@ -10,4 +10,6 @@ This admin dashboard is an exercise in using mostly CSS Grid to create a two dim
 <li> Using max-height to make other elements not blow up when the auto-fill occurs. </li>
 <li> Use of SVGs and manipulating them with CSS Grid. </li>
   <li> Use of line-clamp to allow for trailing ellipsis on a multiline text </li>
+  <li> Add hover effect to elements </li>
+<li> Learn to use git branches for modifying a mostly finished product, therefore not messing it up and having an easy fall back in case the method is abandoned. In addition, using git branches to test other implementations. </li>
 </ol>
