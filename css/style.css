@@ -19,18 +19,24 @@
     display: grid;
     grid-template-rows: 1fr 4fr;
     grid-template-columns: 1fr minmax(600px, 4.4fr);
+    background-color: var(--cadet);
 }
 
 /* ---------------------------- */
 
 .sidebar {
+    background-color: var(--cadet);
     grid-row: 1/-1;
+}
+
+.sidebar .sb-container {
     grid-column: 1; 
     background-color: var(--cadet);
     display: grid;
     grid-template-rows: minmax(30px,1fr) 0.5fr repeat(10,minmax(30px,1fr)) 5fr;
     grid-template-columns: 1;
     color: var(--alice-blue);
+    max-height: 1000px;
 }
 
 .sidebar .header {
@@ -218,6 +224,7 @@
 .bot-right > .feed {
     display: grid;
     grid-template-rows: min-content 1fr min-content 1fr;
+    max-height: 800px;
 }
 
 .bot-right > .feed > text {
