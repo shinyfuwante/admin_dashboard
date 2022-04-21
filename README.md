@@ -1,6 +1,6 @@
 # admin_dashboard
 
-This admin dashboard is an exercise in using mostly CSS Grid to create a two dimensional layout. There may be use of FlexBox as well, but the focus will be on grid. There will be no functionality and some degree of responsiveness is intended. 
+This admin dashboard is an exercise in using mostly CSS Grid to create a two dimensional layout. There may be use of FlexBox as well, but the focus will be on grid. There will be no functionality and some degree of responsiveness is intended. The design is fairly minimal in implementation but taught me a fair amount.
 
 <h1> Key Takeaways </h1>
 <ol>
