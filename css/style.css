@@ -194,6 +194,7 @@
     height: auto;
     place-self: center;
     box-shadow: 2px 2px 2px rgba(131, 117, 156, 0.238);
+    transition: all .2s ease-in; 
 }
 
 .projects .project-container {
@@ -201,6 +202,11 @@
     grid-template-rows: min-content 4fr 1fr;
     padding: 5px;
     margin: clamp(10px, 20px, 30px);
+}
+
+.projects .card:hover {
+    border: 2px solid var(--blue-bell);
+    transform: scale(1.05);
 }
 
 .projects .card text {
